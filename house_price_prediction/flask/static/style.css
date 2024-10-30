@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #6b47c5;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e6f4e7;
+}
+
+.result h2 {
+  color: #c184de;
+  font-size: 18px;
+}
+
+.result p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7974d3;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #8875b9;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
